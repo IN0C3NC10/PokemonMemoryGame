@@ -169,6 +169,13 @@ namespace PokemonMemory
             open[1] = "";
         }
 
+        public void Failed()
+        {
+            // ..mostra a mensagem e reseta
+            MessageBox.Show("Par errado, tente novamente!");
+            ResetItens();
+        }
+
         private void playAgain_Click(object sender, EventArgs e)
         {
             // ..comando responsável pelo reinício da aplicação
@@ -211,9 +218,8 @@ namespace PokemonMemory
                     limit = 0;
                 }
                 else{
-                    // ..se a posição 1 estiver <> de vazio e do item, mostra a mensagem, reseta
-                    MessageBox.Show("Errou!");
-                    ResetItens();
+                    // ..se a posição 1 estiver <> de vazio e do item, ele entra na função "Failed"
+                    Failed();
                 }
             }
         }
@@ -241,8 +247,7 @@ namespace PokemonMemory
                 }
                 else
                 {
-                    MessageBox.Show("Errou!");
-                    ResetItens();
+                    Failed();
                 }
             }
         }
@@ -270,8 +275,7 @@ namespace PokemonMemory
                 }
                 else
                 {
-                    MessageBox.Show("Errou!");
-                    ResetItens();
+                    Failed();
                 }
             }
         }
@@ -299,8 +303,7 @@ namespace PokemonMemory
                 }
                 else
                 {
-                    MessageBox.Show("Errou!");
-                    ResetItens();
+                    Failed();
                 }
             }
         }
@@ -328,8 +331,7 @@ namespace PokemonMemory
                 }
                 else
                 {
-                    MessageBox.Show("Errou!");
-                    ResetItens();
+                    Failed();
                 }
             }
         }
@@ -357,8 +359,7 @@ namespace PokemonMemory
                 }
                 else
                 {
-                    MessageBox.Show("Errou!");
-                    ResetItens();
+                    Failed();
                 }
             }
         }
@@ -386,8 +387,7 @@ namespace PokemonMemory
                 }
                 else
                 {
-                    MessageBox.Show("Errou!");
-                    ResetItens();
+                    Failed();
                 }
             }
         }
@@ -415,8 +415,7 @@ namespace PokemonMemory
                 }
                 else
                 {
-                    MessageBox.Show("Errou!");
-                    ResetItens();
+                    Failed();
                 }
             }
         }
@@ -444,8 +443,7 @@ namespace PokemonMemory
                 }
                 else
                 {
-                    MessageBox.Show("Errou!");
-                    ResetItens();
+                    Failed();
                 }
             }
         }
@@ -473,8 +471,7 @@ namespace PokemonMemory
                 }
                 else
                 {
-                    MessageBox.Show("Errou!");
-                    ResetItens();
+                    Failed();
                 }
             }
         }
@@ -502,8 +499,7 @@ namespace PokemonMemory
                 }
                 else
                 {
-                    MessageBox.Show("Errou!");
-                    ResetItens();
+                    Failed();
                 }
             }
         }
@@ -531,8 +527,7 @@ namespace PokemonMemory
                 }
                 else
                 {
-                    MessageBox.Show("Errou!");
-                    ResetItens();
+                    Failed();
                 }
             }
         }
@@ -560,8 +555,7 @@ namespace PokemonMemory
                 }
                 else
                 {
-                    MessageBox.Show("Errou!");
-                    ResetItens();
+                    Failed();
                 }
             }
         }
@@ -589,8 +583,7 @@ namespace PokemonMemory
                 }
                 else
                 {
-                    MessageBox.Show("Errou!");
-                    ResetItens();
+                    Failed();
                 }
             }
         }
@@ -618,8 +611,7 @@ namespace PokemonMemory
                 }
                 else
                 {
-                    MessageBox.Show("Errou!");
-                    ResetItens();
+                    Failed();
                 }
             }
         }
@@ -647,8 +639,7 @@ namespace PokemonMemory
                 }
                 else
                 {
-                    MessageBox.Show("Errou!");
-                    ResetItens();
+                    Failed();
                 }
             }
         }
@@ -676,8 +667,7 @@ namespace PokemonMemory
                 }
                 else
                 {
-                    MessageBox.Show("Errou!");
-                    ResetItens();
+                    Failed();
                 }
             }
         }
@@ -705,8 +695,7 @@ namespace PokemonMemory
                 }
                 else
                 {
-                    MessageBox.Show("Errou!");
-                    ResetItens();
+                    Failed();
                 }
             }
         }
