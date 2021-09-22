@@ -123,9 +123,39 @@ namespace PokemonMemory.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap rattata {
+            get {
+                object obj = ResourceManager.GetObject("rattata", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap snorlax {
             get {
                 object obj = ResourceManager.GetObject("snorlax", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap squirtle {
+            get {
+                object obj = ResourceManager.GetObject("squirtle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap zubat {
+            get {
+                object obj = ResourceManager.GetObject("zubat", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

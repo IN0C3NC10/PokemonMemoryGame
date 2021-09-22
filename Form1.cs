@@ -52,6 +52,18 @@ namespace PokemonMemory
             img11.Enabled = true;
             img12.Image = Properties.Resources.question_mark;
             img12.Enabled = true;
+            img13.Image = Properties.Resources.question_mark;
+            img13.Enabled = true;
+            img14.Image = Properties.Resources.question_mark;
+            img14.Enabled = true;
+            img15.Image = Properties.Resources.question_mark;
+            img15.Enabled = true;
+            img16.Image = Properties.Resources.question_mark;
+            img16.Enabled = true;
+            img17.Image = Properties.Resources.question_mark;
+            img17.Enabled = true;
+            img18.Image = Properties.Resources.question_mark;
+            img18.Enabled = true;
         }
 
         public void ResetItens()
@@ -122,6 +134,36 @@ namespace PokemonMemory
                 img12.Image = Properties.Resources.question_mark;
                 img12.Enabled = true;
             }
+            if (open[1] == "img13")
+            {
+                img13.Image = Properties.Resources.question_mark;
+                img13.Enabled = true;
+            }
+            if (open[1] == "img14")
+            {
+                img14.Image = Properties.Resources.question_mark;
+                img14.Enabled = true;
+            }
+            if (open[1] == "img15")
+            {
+                img15.Image = Properties.Resources.question_mark;
+                img15.Enabled = true;
+            }
+            if (open[1] == "img16")
+            {
+                img16.Image = Properties.Resources.question_mark;
+                img16.Enabled = true;
+            }
+            if (open[1] == "img17")
+            {
+                img17.Image = Properties.Resources.question_mark;
+                img17.Enabled = true;
+            }
+            if (open[1] == "img18")
+            {
+                img18.Image = Properties.Resources.question_mark;
+                img18.Enabled = true;
+            }
             // ..também passa ambos os campos para vazio novamente
             open[0] = "";
             open[1] = "";
@@ -182,19 +224,19 @@ namespace PokemonMemory
             {
                 if (open[0] == "")
                 {
-                    open[0] = "charmander";
+                    open[0] = "rattata";
                     open[1] = "img2";
-                    img2.Image = Properties.Resources.charmander;
+                    img2.Image = Properties.Resources.rattata;
                     img2.Enabled = false;
                     limit++;
                 }
-                else if (open[0] == "charmander")
+                else if (open[0] == "rattata")
                 {
                     open[0] = "";
                     open[1] = "";
-                    img2.Image = Properties.Resources.charmander;
+                    img2.Image = Properties.Resources.rattata;
                     img2.Enabled = false;
-                    MessageBox.Show("Encontrou os Charmanders!");
+                    MessageBox.Show("Encontrou as Rattatas!");
                     limit = 0;
                 }
                 else
@@ -298,19 +340,19 @@ namespace PokemonMemory
             {
                 if (open[0] == "")
                 {
-                    open[0] = "psyduck";
+                    open[0] = "zubat";
                     open[1] = "img10";
-                    img10.Image = Properties.Resources.psyduck;
+                    img10.Image = Properties.Resources.zubat;
                     img10.Enabled = false;
                     limit++;
                 }
-                else if (open[0] == "psyduck")
+                else if (open[0] == "zubat")
                 {
                     open[0] = "";
                     open[1] = "";
-                    img10.Image = Properties.Resources.psyduck;
+                    img10.Image = Properties.Resources.zubat;
                     img10.Enabled = false;
-                    MessageBox.Show("Encontrou os Psyducks!");
+                    MessageBox.Show("Encontrou os Zubats!");
                     limit = 0;
                 }
                 else
@@ -327,19 +369,19 @@ namespace PokemonMemory
             {
                 if (open[0] == "")
                 {
-                    open[0] = "meowth";
+                    open[0] = "squirtle";
                     open[1] = "img6";
-                    img6.Image = Properties.Resources.meowth;
+                    img6.Image = Properties.Resources.squirtle;
                     img6.Enabled = false;
                     limit++;
                 }
-                else if (open[0] == "meowth")
+                else if (open[0] == "squirtle")
                 {
                     open[0] = "";
                     open[1] = "";
-                    img6.Image = Properties.Resources.meowth;
+                    img6.Image = Properties.Resources.squirtle;
                     img6.Enabled = false;
-                    MessageBox.Show("Encontrou os Meowths!");
+                    MessageBox.Show("Encontrou os Squirtles!");
                     limit = 0;
                 }
                 else
@@ -385,19 +427,19 @@ namespace PokemonMemory
             {
                 if (open[0] == "")
                 {
-                    open[0] = "bulbasauro";
+                    open[0] = "squirtle";
                     open[1] = "img9";
-                    img9.Image = Properties.Resources.bullbasaur;
+                    img9.Image = Properties.Resources.squirtle;
                     img9.Enabled = false;
                     limit++;
                 }
-                else if (open[0] == "bulbasauro")
+                else if (open[0] == "squirtle")
                 {
                     open[0] = "";
                     open[1] = "";
-                    img9.Image = Properties.Resources.bullbasaur;
+                    img9.Image = Properties.Resources.squirtle;
                     img9.Enabled = false;
-                    MessageBox.Show("Encontrou os Bulbasauros!");
+                    MessageBox.Show("Encontrou os Squirtles!");
                     limit = 0;
                 }
                 else
@@ -484,6 +526,180 @@ namespace PokemonMemory
                     open[1] = "";
                     img8.Image = Properties.Resources.bullbasaur;
                     img8.Enabled = false;
+                    MessageBox.Show("Encontrou os Bulbasauros!");
+                    limit = 0;
+                }
+                else
+                {
+                    MessageBox.Show("Errou!");
+                    ResetItens();
+                }
+            }
+        }
+
+        private void img13_Click(object sender, EventArgs e)
+        {
+            if (limit < 2)
+            {
+                if (open[0] == "")
+                {
+                    open[0] = "psyduck";
+                    open[1] = "img13";
+                    img13.Image = Properties.Resources.psyduck;
+                    img13.Enabled = false;
+                    limit++;
+                }
+                else if (open[0] == "psyduck")
+                {
+                    open[0] = "";
+                    open[1] = "";
+                    img13.Image = Properties.Resources.psyduck;
+                    img13.Enabled = false;
+                    MessageBox.Show("Encontrou os Psyducks!");
+                    limit = 0;
+                }
+                else
+                {
+                    MessageBox.Show("Errou!");
+                    ResetItens();
+                }
+            }
+        }
+
+        private void img14_Click(object sender, EventArgs e)
+        {
+            if (limit < 2)
+            {
+                if (open[0] == "")
+                {
+                    open[0] = "zubat";
+                    open[1] = "img14";
+                    img14.Image = Properties.Resources.zubat;
+                    img14.Enabled = false;
+                    limit++;
+                }
+                else if (open[0] == "zubat")
+                {
+                    open[0] = "";
+                    open[1] = "";
+                    img14.Image = Properties.Resources.zubat;
+                    img14.Enabled = false;
+                    MessageBox.Show("Encontrou os Zubats!");
+                    limit = 0;
+                }
+                else
+                {
+                    MessageBox.Show("Errou!");
+                    ResetItens();
+                }
+            }
+        }
+
+        private void img15_Click(object sender, EventArgs e)
+        {
+            if (limit < 2)
+            {
+                if (open[0] == "")
+                {
+                    open[0] = "rattata";
+                    open[1] = "img15";
+                    img15.Image = Properties.Resources.rattata;
+                    img15.Enabled = false;
+                    limit++;
+                }
+                else if (open[0] == "rattata")
+                {
+                    open[0] = "";
+                    open[1] = "";
+                    img15.Image = Properties.Resources.rattata;
+                    img15.Enabled = false;
+                    MessageBox.Show("Encontrou as Rattatas!");
+                    limit = 0;
+                }
+                else
+                {
+                    MessageBox.Show("Errou!");
+                    ResetItens();
+                }
+            }
+        }
+
+        private void img16_Click(object sender, EventArgs e)
+        {
+            if (limit < 2)
+            {
+                if (open[0] == "")
+                {
+                    open[0] = "charmander";
+                    open[1] = "img16";
+                    img16.Image = Properties.Resources.charmander;
+                    img16.Enabled = false;
+                    limit++;
+                }
+                else if (open[0] == "charmander")
+                {
+                    open[0] = "";
+                    open[1] = "";
+                    img16.Image = Properties.Resources.charmander;
+                    img16.Enabled = false;
+                    MessageBox.Show("Encontrou os Charmanders!");
+                    limit = 0;
+                }
+                else
+                {
+                    MessageBox.Show("Errou!");
+                    ResetItens();
+                }
+            }
+        }
+
+        private void img17_Click(object sender, EventArgs e)
+        {
+            if (limit < 2)
+            {
+                if (open[0] == "")
+                {
+                    open[0] = "meowth";
+                    open[1] = "img17";
+                    img17.Image = Properties.Resources.meowth;
+                    img17.Enabled = false;
+                    limit++;
+                }
+                else if (open[0] == "meowth")
+                {
+                    open[0] = "";
+                    open[1] = "";
+                    img17.Image = Properties.Resources.meowth;
+                    img17.Enabled = false;
+                    MessageBox.Show("Encontrou os Meowths!");
+                    limit = 0;
+                }
+                else
+                {
+                    MessageBox.Show("Errou!");
+                    ResetItens();
+                }
+            }
+        }
+
+        private void img18_Click(object sender, EventArgs e)
+        {
+            if (limit < 2)
+            {
+                if (open[0] == "")
+                {
+                    open[0] = "bulbasauro";
+                    open[1] = "img18";
+                    img18.Image = Properties.Resources.bullbasaur;
+                    img18.Enabled = false;
+                    limit++;
+                }
+                else if (open[0] == "bulbasauro")
+                {
+                    open[0] = "";
+                    open[1] = "";
+                    img18.Image = Properties.Resources.bullbasaur;
+                    img18.Enabled = false;
                     MessageBox.Show("Encontrou os Bulbasauros!");
                     limit = 0;
                 }
