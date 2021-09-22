@@ -16,12 +16,26 @@ namespace PokemonMemory
         int limit = 0;
         // .."open" é responsável pelo gerenciamento de quais imagens estão aberta, e quais já foram
         string[] open = new string[2]{"",""};
-        
+        // ..instância responsável pelo gerenciamento de medias, neste caso a música
+        System.Media.SoundPlayer player = new System.Media.SoundPlayer();
+
+        /*
+         * -------------------------- Opções do Formulário ---------------------------------------------
+         */
         public frmMain()
         {
             InitializeComponent();
         }
 
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+            player.SoundLocation = "../../sound.wav";
+            player.PlayLooping();
+        }
+
+        /*
+         * -------------------------- Funções ---------------------------------------------
+         */
         public void Restart()
         {
             // ..faz o que diz, volta todos os itens ao "padrão de fábrica" e habilita as imagens
@@ -70,7 +84,7 @@ namespace PokemonMemory
         {
             /* 
              * ..retorna o "limit" para 0
-             * verifica a 1 posição do "open", semelhante a um "cookie", 
+             * verifica a 2 posição do "open", semelhante a um "cookie", 
              *  dependendo de qual imagem esteja ele retorna para "?" e habilita novamente
             */
             limit = 0;
@@ -176,6 +190,24 @@ namespace PokemonMemory
             ResetItens();
         }
 
+        /*
+         * -------------------------- Música ---------------------------------------------
+         */
+        private void musicStart_Click(object sender, EventArgs e)
+        {
+            // ..comando responsável pelo inicio da musica
+            player.PlayLooping();
+        }
+
+        private void musicStop_Click(object sender, EventArgs e)
+        {
+            // ..comando responsável pela parada da música
+            player.Stop();
+        }
+
+        /*
+         * -------------------------- Opções de Jogo ---------------------------------------------
+         */
         private void playAgain_Click(object sender, EventArgs e)
         {
             // ..comando responsável pelo reinício da aplicação
@@ -188,6 +220,9 @@ namespace PokemonMemory
             Application.Exit();
         }
 
+        /*
+         * -------------------------- Lógica do Jogo ---------------------------------------------
+         */
         private void img1_Click(object sender, EventArgs e)
         {
             // ..verifica se algum item já foi aberto

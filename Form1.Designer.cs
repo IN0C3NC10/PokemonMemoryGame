@@ -32,45 +32,48 @@ namespace PokemonMemory
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.opçõesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.playAgain = new System.Windows.Forms.ToolStripMenuItem();
-            this.fecharToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.img15 = new System.Windows.Forms.PictureBox();
+            this.img18 = new System.Windows.Forms.PictureBox();
+            this.img17 = new System.Windows.Forms.PictureBox();
             this.img16 = new System.Windows.Forms.PictureBox();
             this.img13 = new System.Windows.Forms.PictureBox();
+            this.img12 = new System.Windows.Forms.PictureBox();
+            this.img11 = new System.Windows.Forms.PictureBox();
             this.img10 = new System.Windows.Forms.PictureBox();
             this.img9 = new System.Windows.Forms.PictureBox();
             this.img8 = new System.Windows.Forms.PictureBox();
             this.img7 = new System.Windows.Forms.PictureBox();
             this.img14 = new System.Windows.Forms.PictureBox();
+            this.img6 = new System.Windows.Forms.PictureBox();
+            this.img5 = new System.Windows.Forms.PictureBox();
             this.img4 = new System.Windows.Forms.PictureBox();
             this.img3 = new System.Windows.Forms.PictureBox();
             this.img2 = new System.Windows.Forms.PictureBox();
             this.img1 = new System.Windows.Forms.PictureBox();
-            this.img5 = new System.Windows.Forms.PictureBox();
-            this.img11 = new System.Windows.Forms.PictureBox();
-            this.img17 = new System.Windows.Forms.PictureBox();
-            this.img6 = new System.Windows.Forms.PictureBox();
-            this.img12 = new System.Windows.Forms.PictureBox();
-            this.img18 = new System.Windows.Forms.PictureBox();
+            this.playAgain = new System.Windows.Forms.ToolStripMenuItem();
+            this.music = new System.Windows.Forms.ToolStripMenuItem();
+            this.musicStart = new System.Windows.Forms.ToolStripMenuItem();
+            this.musicStop = new System.Windows.Forms.ToolStripMenuItem();
+            this.fecharToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.img15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.img1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.img5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.img11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.img17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.img6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.img12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.img18)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -87,24 +90,11 @@ namespace PokemonMemory
             // 
             this.opçõesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.playAgain,
+            this.music,
             this.fecharToolStripMenuItem});
             this.opçõesToolStripMenuItem.Name = "opçõesToolStripMenuItem";
             this.opçõesToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
             this.opçõesToolStripMenuItem.Text = "Opções";
-            // 
-            // playAgain
-            // 
-            this.playAgain.Name = "playAgain";
-            this.playAgain.Size = new System.Drawing.Size(167, 22);
-            this.playAgain.Text = "Jogar Novamente";
-            this.playAgain.Click += new System.EventHandler(this.playAgain_Click);
-            // 
-            // fecharToolStripMenuItem
-            // 
-            this.fecharToolStripMenuItem.Name = "fecharToolStripMenuItem";
-            this.fecharToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
-            this.fecharToolStripMenuItem.Text = "Fechar";
-            this.fecharToolStripMenuItem.Click += new System.EventHandler(this.fecharToolStripMenuItem_Click);
             // 
             // img15
             // 
@@ -116,6 +106,28 @@ namespace PokemonMemory
             this.img15.TabIndex = 0;
             this.img15.TabStop = false;
             this.img15.Click += new System.EventHandler(this.img15_Click);
+            // 
+            // img18
+            // 
+            this.img18.Image = ((System.Drawing.Image)(resources.GetObject("img18.Image")));
+            this.img18.Location = new System.Drawing.Point(792, 348);
+            this.img18.Name = "img18";
+            this.img18.Size = new System.Drawing.Size(150, 150);
+            this.img18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.img18.TabIndex = 0;
+            this.img18.TabStop = false;
+            this.img18.Click += new System.EventHandler(this.img18_Click);
+            // 
+            // img17
+            // 
+            this.img17.Image = ((System.Drawing.Image)(resources.GetObject("img17.Image")));
+            this.img17.Location = new System.Drawing.Point(636, 348);
+            this.img17.Name = "img17";
+            this.img17.Size = new System.Drawing.Size(150, 150);
+            this.img17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.img17.TabIndex = 0;
+            this.img17.TabStop = false;
+            this.img17.Click += new System.EventHandler(this.img17_Click);
             // 
             // img16
             // 
@@ -138,6 +150,28 @@ namespace PokemonMemory
             this.img13.TabIndex = 0;
             this.img13.TabStop = false;
             this.img13.Click += new System.EventHandler(this.img13_Click);
+            // 
+            // img12
+            // 
+            this.img12.Image = ((System.Drawing.Image)(resources.GetObject("img12.Image")));
+            this.img12.Location = new System.Drawing.Point(792, 192);
+            this.img12.Name = "img12";
+            this.img12.Size = new System.Drawing.Size(150, 150);
+            this.img12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.img12.TabIndex = 0;
+            this.img12.TabStop = false;
+            this.img12.Click += new System.EventHandler(this.img12_Click);
+            // 
+            // img11
+            // 
+            this.img11.Image = ((System.Drawing.Image)(resources.GetObject("img11.Image")));
+            this.img11.Location = new System.Drawing.Point(636, 192);
+            this.img11.Name = "img11";
+            this.img11.Size = new System.Drawing.Size(150, 150);
+            this.img11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.img11.TabIndex = 0;
+            this.img11.TabStop = false;
+            this.img11.Click += new System.EventHandler(this.img11_Click);
             // 
             // img10
             // 
@@ -194,6 +228,28 @@ namespace PokemonMemory
             this.img14.TabStop = false;
             this.img14.Click += new System.EventHandler(this.img14_Click);
             // 
+            // img6
+            // 
+            this.img6.Image = ((System.Drawing.Image)(resources.GetObject("img6.Image")));
+            this.img6.Location = new System.Drawing.Point(792, 36);
+            this.img6.Name = "img6";
+            this.img6.Size = new System.Drawing.Size(150, 150);
+            this.img6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.img6.TabIndex = 0;
+            this.img6.TabStop = false;
+            this.img6.Click += new System.EventHandler(this.img6_Click);
+            // 
+            // img5
+            // 
+            this.img5.Image = ((System.Drawing.Image)(resources.GetObject("img5.Image")));
+            this.img5.Location = new System.Drawing.Point(636, 36);
+            this.img5.Name = "img5";
+            this.img5.Size = new System.Drawing.Size(150, 150);
+            this.img5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.img5.TabIndex = 0;
+            this.img5.TabStop = false;
+            this.img5.Click += new System.EventHandler(this.img5_Click);
+            // 
             // img4
             // 
             this.img4.Image = ((System.Drawing.Image)(resources.GetObject("img4.Image")));
@@ -238,71 +294,47 @@ namespace PokemonMemory
             this.img1.TabStop = false;
             this.img1.Click += new System.EventHandler(this.img1_Click);
             // 
-            // img5
+            // playAgain
             // 
-            this.img5.Image = ((System.Drawing.Image)(resources.GetObject("img5.Image")));
-            this.img5.Location = new System.Drawing.Point(636, 36);
-            this.img5.Name = "img5";
-            this.img5.Size = new System.Drawing.Size(150, 150);
-            this.img5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.img5.TabIndex = 0;
-            this.img5.TabStop = false;
-            this.img5.Click += new System.EventHandler(this.img5_Click);
+            this.playAgain.Image = global::PokemonMemory.Properties.Resources.reload;
+            this.playAgain.Name = "playAgain";
+            this.playAgain.Size = new System.Drawing.Size(180, 22);
+            this.playAgain.Text = "Jogar Novamente";
+            this.playAgain.Click += new System.EventHandler(this.playAgain_Click);
             // 
-            // img11
+            // music
             // 
-            this.img11.Image = ((System.Drawing.Image)(resources.GetObject("img11.Image")));
-            this.img11.Location = new System.Drawing.Point(636, 192);
-            this.img11.Name = "img11";
-            this.img11.Size = new System.Drawing.Size(150, 150);
-            this.img11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.img11.TabIndex = 0;
-            this.img11.TabStop = false;
-            this.img11.Click += new System.EventHandler(this.img11_Click);
+            this.music.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.musicStart,
+            this.musicStop});
+            this.music.Image = global::PokemonMemory.Properties.Resources.sound;
+            this.music.Name = "music";
+            this.music.Size = new System.Drawing.Size(180, 22);
+            this.music.Text = "Música";
             // 
-            // img17
+            // musicStart
             // 
-            this.img17.Image = ((System.Drawing.Image)(resources.GetObject("img17.Image")));
-            this.img17.Location = new System.Drawing.Point(636, 348);
-            this.img17.Name = "img17";
-            this.img17.Size = new System.Drawing.Size(150, 150);
-            this.img17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.img17.TabIndex = 0;
-            this.img17.TabStop = false;
-            this.img17.Click += new System.EventHandler(this.img17_Click);
+            this.musicStart.Image = global::PokemonMemory.Properties.Resources.play;
+            this.musicStart.Name = "musicStart";
+            this.musicStart.Size = new System.Drawing.Size(180, 22);
+            this.musicStart.Text = "Reiniciar";
+            this.musicStart.Click += new System.EventHandler(this.musicStart_Click);
             // 
-            // img6
+            // musicStop
             // 
-            this.img6.Image = ((System.Drawing.Image)(resources.GetObject("img6.Image")));
-            this.img6.Location = new System.Drawing.Point(792, 36);
-            this.img6.Name = "img6";
-            this.img6.Size = new System.Drawing.Size(150, 150);
-            this.img6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.img6.TabIndex = 0;
-            this.img6.TabStop = false;
-            this.img6.Click += new System.EventHandler(this.img6_Click);
+            this.musicStop.Image = global::PokemonMemory.Properties.Resources.pause;
+            this.musicStop.Name = "musicStop";
+            this.musicStop.Size = new System.Drawing.Size(180, 22);
+            this.musicStop.Text = "Parar";
+            this.musicStop.Click += new System.EventHandler(this.musicStop_Click);
             // 
-            // img12
+            // fecharToolStripMenuItem
             // 
-            this.img12.Image = ((System.Drawing.Image)(resources.GetObject("img12.Image")));
-            this.img12.Location = new System.Drawing.Point(792, 192);
-            this.img12.Name = "img12";
-            this.img12.Size = new System.Drawing.Size(150, 150);
-            this.img12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.img12.TabIndex = 0;
-            this.img12.TabStop = false;
-            this.img12.Click += new System.EventHandler(this.img12_Click);
-            // 
-            // img18
-            // 
-            this.img18.Image = ((System.Drawing.Image)(resources.GetObject("img18.Image")));
-            this.img18.Location = new System.Drawing.Point(792, 348);
-            this.img18.Name = "img18";
-            this.img18.Size = new System.Drawing.Size(150, 150);
-            this.img18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.img18.TabIndex = 0;
-            this.img18.TabStop = false;
-            this.img18.Click += new System.EventHandler(this.img18_Click);
+            this.fecharToolStripMenuItem.Image = global::PokemonMemory.Properties.Resources.close;
+            this.fecharToolStripMenuItem.Name = "fecharToolStripMenuItem";
+            this.fecharToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.fecharToolStripMenuItem.Text = "Fechar";
+            this.fecharToolStripMenuItem.Click += new System.EventHandler(this.fecharToolStripMenuItem_Click);
             // 
             // frmMain
             // 
@@ -338,26 +370,27 @@ namespace PokemonMemory
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Jogo da Memória Pokemon";
+            this.Load += new System.EventHandler(this.frmMain_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.img15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.img16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.img13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.img10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.img9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.img8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.img7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.img14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.img4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.img3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.img2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.img1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.img5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.img11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.img17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.img6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.img12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.img18)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -387,6 +420,9 @@ namespace PokemonMemory
         private System.Windows.Forms.PictureBox img6;
         private System.Windows.Forms.PictureBox img12;
         private System.Windows.Forms.PictureBox img18;
+        private System.Windows.Forms.ToolStripMenuItem music;
+        private System.Windows.Forms.ToolStripMenuItem musicStop;
+        private System.Windows.Forms.ToolStripMenuItem musicStart;
     }
 }
 

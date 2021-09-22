@@ -113,5 +113,23 @@
   <ItemGroup>
     <None Include="assets\images\zubat.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\music\pokemon-song-8bit.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\images\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\images\reload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\images\sound.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\images\pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\images\play.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
