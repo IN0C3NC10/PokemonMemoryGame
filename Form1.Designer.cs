@@ -215,14 +215,14 @@ namespace PokemonMemory
             // playAgain
             // 
             this.playAgain.Name = "playAgain";
-            this.playAgain.Size = new System.Drawing.Size(180, 22);
+            this.playAgain.Size = new System.Drawing.Size(167, 22);
             this.playAgain.Text = "Jogar Novamente";
             this.playAgain.Click += new System.EventHandler(this.playAgain_Click);
             // 
             // fecharToolStripMenuItem
             // 
             this.fecharToolStripMenuItem.Name = "fecharToolStripMenuItem";
-            this.fecharToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.fecharToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.fecharToolStripMenuItem.Text = "Fechar";
             this.fecharToolStripMenuItem.Click += new System.EventHandler(this.fecharToolStripMenuItem_Click);
             // 
@@ -244,8 +244,10 @@ namespace PokemonMemory
             this.Controls.Add(this.img2);
             this.Controls.Add(this.img1);
             this.Controls.Add(this.menuStrip1);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Font = new System.Drawing.Font("Orbitron", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.MaximizeBox = false;
