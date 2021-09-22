@@ -1,0 +1,10 @@
+C:\Users\NOBODY\Documents\Projects Files\CSharp\PokemonMemory\bin\Debug\PokemonMemory.exe.config
+C:\Users\NOBODY\Documents\Projects Files\CSharp\PokemonMemory\bin\Debug\PokemonMemory.exe
+C:\Users\NOBODY\Documents\Projects Files\CSharp\PokemonMemory\bin\Debug\PokemonMemory.pdb
+C:\Users\NOBODY\Documents\Projects Files\CSharp\PokemonMemory\obj\Debug\PokemonMemory.csproj.AssemblyReference.cache
+C:\Users\NOBODY\Documents\Projects Files\CSharp\PokemonMemory\obj\Debug\PokemonMemory.Properties.Resources.resources
+C:\Users\NOBODY\Documents\Projects Files\CSharp\PokemonMemory\obj\Debug\PokemonMemory.csproj.GenerateResource.cache
+C:\Users\NOBODY\Documents\Projects Files\CSharp\PokemonMemory\obj\Debug\PokemonMemory.csproj.CoreCompileInputs.cache
+C:\Users\NOBODY\Documents\Projects Files\CSharp\PokemonMemory\obj\Debug\PokemonMemory.exe
+C:\Users\NOBODY\Documents\Projects Files\CSharp\PokemonMemory\obj\Debug\PokemonMemory.pdb
+C:\Users\NOBODY\Documents\Projects Files\CSharp\PokemonMemory\obj\Debug\PokemonMemory.frmMain.resources
