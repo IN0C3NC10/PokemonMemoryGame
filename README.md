@@ -1,6 +1,9 @@
 <!-- Título -->
 <h1 align="center" id="title">Pokémon - Memory Game</h1>
-
+<!-- Logo -->
+<p align="center">
+  <img height="400" alt="pokemon-memorygame-logo" title="Pokémon - Memory Game" src="./assets/images/logo.png" />
+</p>
 
 <!-- Descrição -->
 <h2 align="left" id="descricao">Descrição</h2>
@@ -24,6 +27,14 @@
   <img height="400" alt="screenshot-show-products" title="Alguns pares descobertos" src="./assets/screenshots/Screenshot_3.png" />
   <img height="400" alt="screenshot-create-product" title="Todos pares descobertos" src="./assets/screenshots/Screenshot_1.png" />
 </p>
+
+
+<!-- Funcionalidades -->
+<h2 align="left" id="funcionalidades">Funcionalidades</h2>
+
+- [x] Jogo Base;
+- [x] Reiniciar jogo;
+- [x] Trilha sonora;
 
 
 <!-- Tecnologias -->
